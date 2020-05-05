@@ -101,7 +101,28 @@ export default [
             },
             {
                 name: '<code>check-infinite-scroll</code>',
-                description: 'Makes the component check if list reached scroll end and emit <code>infinite-sroll</code> event.',
+                description: 'Makes the component check if list reached scroll end and emit <code>infinite-scroll</code> event.',
+                type: 'Boolean',
+                values: '—',
+                default: '<code>false</code>'
+            },
+            {
+                name: '<code>max-height</code>',
+                description: 'Max height of dropdown content',
+                type: 'String, Number',
+                values: '—',
+                default: '<code>200px</code>'
+            },
+            {
+                name: '<code>dropdown-position</code>',
+                description: 'Position of dropdown',
+                type: 'String',
+                values: '<code>top</code>, <code>bottom</code>, <code>auto</code>',
+                default: '<code>auto</code>'
+            },
+            {
+                name: '<code>append-to-body</code>',
+                description: 'Append autocomplete content to body',
                 type: 'Boolean',
                 values: '—',
                 default: '<code>false</code>'
